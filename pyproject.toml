@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "counter_app_ALEKSANDR_PAVLOV"
+version = "0.0.3"
+authors = [
+    {name = "Aleksandr Pavlov", email = "sashapavlov559@gmail.com"}
+]
+description = 'This module counts the number of unique characters in a string.'
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">= 3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
